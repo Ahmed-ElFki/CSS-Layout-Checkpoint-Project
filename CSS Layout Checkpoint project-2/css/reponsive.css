@@ -1,0 +1,19 @@
+@media screen and (max-width: 688px){
+    header, .container, .section-4-bis{
+        max-width: 100%;
+    }
+
+    .section-2, .section-3, .section-5{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (min-width: 689px) and (max-width: 992px){
+    header, .container, .section-4-bis{
+        max-width: 100%;
+    }
+
+    .section-2, .section-3, .section-5{
+        grid-template-columns: 1fr 1fr;
+    }
+}
